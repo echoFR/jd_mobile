@@ -1,0 +1,365 @@
+/*公用*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 12px;
+	color: black;
+	background-color: #F5F5F5;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+ul,ol{
+	list-style-type: none;
+}
+.clear{
+	clear: both;
+}
+/*主页*/
+#home_content{
+	position: relative;
+	padding-bottom: 12%;
+}
+#home_content,.pic,#head,#head_fix{
+	width: 100%;
+	max-width: 640px;
+	min-width: 300px;
+	margin: 0 auto;	
+}
+#honme_content{
+	background-color: white;
+	position: relative;
+	padding-bottom: 17%;
+}
+#head{
+	width: 100%;
+	margin: 0 auto;
+}
+#head{
+	position: fixed;
+	background-color: rgba(225,48,50,.8);
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+#logo{
+	width: 10%;
+	float: left;
+	padding-left: 10%;
+	position: relative;
+	top: -1%;
+	left: 11%;
+}
+#enter{
+	width: 10%;
+	float: right;
+	color: white;
+}
+.bigfont{
+	color: red;
+	font-size: 14px;
+
+}
+.jd_seek{
+	outline: none;
+	border: none;
+	border-radius: 10%;
+	padding: 0 5%;
+}
+
+/*内容*/
+#buy{
+	overflow: hidden;
+	/*清除浮动*/
+	background-color: #F3F3F3;
+}
+/*内容*/
+#buy img{
+	width: 10%;
+	background-color: skyblue;
+	border-radius: 15px;
+	float: left;
+	margin: 2% 5%;
+}
+.link{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	padding: 1%;
+	color: black;
+	border-radius: 10%;
+	margin-bottom: 1%;
+	background-color: white;
+}
+.redadd{
+	font-size: 18;
+	color: red;
+	font-weight: bold;
+	padding-right: 10px;
+}
+#red{
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+	float: right;
+	display: block;
+}
+#seckill{
+	width: 100%;
+	overflow: hidden;
+	background-color: white;
+	padding: 1% 0;
+}
+#goods_list{
+	overflow: hidden;
+}
+.seckill_pic{
+	width: 45%;
+	float: left;
+}
+#goods_pic li img{
+	width: 20%;
+	float: left;
+}
+ul{
+	width: 100%;
+}
+.money{
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+}
+.lef{
+	padding-left: 1%;
+}
+#goods_money{
+	margin-left: 2%;
+}
+#goods_money li{
+	float: left;
+	width: 20%;
+}
+/*发现好货*/
+#find_goods{
+	width: 100%;
+	overflow: hidden;
+	padding: 1% 0;
+}
+#font{
+	overflow: hidden;
+	float: left;
+	width: 50%;
+	background-color: white;
+}
+#rank,#flush_buy{
+	float: left;
+	width: 24%;
+	background-color: white;
+	padding: 2.2% 0;
+}
+#rank{
+	margin: 0 1%;
+}
+#find_font,#good_goods{
+	float: left;
+	width: 50%;
+}
+.good_pic,.rankpic,.flush_pic{
+	width: 100%;
+}
+.tit_pic{
+	width: 100%;
+}
+.black_font{
+	font-weight: bolder;
+}
+/*love_life*/
+.lo_life{
+	width: 100%;
+}
+.left,.right{
+	width: 49%;
+	float: left;
+	background-color: white;
+}
+.right{
+	float: right;
+}
+.left_pic,.left_font,.right_pic,.right_font{
+	width: 50%;
+	float: left;
+}
+.top_pic{
+	width: 100%;
+}
+.back_pink{
+	display: block;
+	width: 100%;
+	background-color: #FF4A7D;
+	color: white;
+	font-weight: bold;
+}
+.love_baby{
+	width: 25%;
+	background-color: white;
+	float: left;
+}
+#baby{
+	width: 100%;
+	margin: 2% 0;
+	overflow: hidden;
+}
+.kt_pic{
+	width: 100%;
+}
+/*发现好店*/
+.find_shop{
+	width: 100%;
+	background-color: #D4F6F3;
+}
+.shop_pic{
+	width: 25%;
+	margin-left: 35%;
+	vertical-align: center;
+}
+.more{
+	text-decoration: none;
+	color: black;
+	padding-left: 19%;
+}
+.find_goshop,.big_hfont{
+	width: 100%;
+}
+.find_goshop{
+	overflow: hidden;
+}
+.big_house,.big_house_copy{
+	width: 49%;
+	float: left;
+	background-color: white;
+	padding-bottom: 2%;
+}
+.big_house_copy{
+	margin-left: 1%;
+}
+.big_pic{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.big_hpic{
+	width: 50%;
+	float: left;
+}
+.pic_font{
+	color: black;
+	display: block;
+	width: 100%;
+	background-color: rgba(0,0,0,.4);
+	text-align: center;
+	position: absolute;
+	top: 83%;
+	left: 0;
+}
+.recommend{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 3%;
+}
+.re_content{
+	width: 100%;
+}
+.one_line{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 1%;
+}
+.re_left{
+	float: left;
+	width: 50%;
+	background-color: white;
+}
+.bag_pic,.bag_font{
+	width: 100%;
+}
+.bag_font{
+	display: block;
+}
+.bag_money{
+	width: 100%;
+	margin-bottom: 5%;
+}
+.new_money{
+	font-size: 18px;
+	color: red;
+}
+.full_cut{
+	margin-left: 3%;
+	color: white;
+	background-color: red;
+	font-weight: bolder;
+	border-radius: 15%;
+	padding: 2%;
+}
+.view{
+	font-size: 10px;
+	color: gray;
+}
+.look_simi{
+	border: 1px solid gray;
+	border-radius: 15%;
+	margin-left: 38%;
+}
+#continue{
+	width: 100%;
+	text-align: center;
+	padding: 2% 0;
+	margin-bottom: 2%;
+	background-color: white;
+}
+#foot_tit{
+	overflow: hidden;
+	padding: 3% 0;
+	background-color: white;
+}
+#foot_tit li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+#foot_center{
+	width: 90%;
+	overflow: hidden;
+	margin: 2% 0;
+	padding-left: 4%;
+}
+#foot_center li
+{
+	float: left;
+	width: 30%;
+}
+.foot_pic
+{
+	width: 100%;
+}
+#copy{
+	width: 100%;
+	text-align: center;
+	padding: 3% 0 5%;
+}
+.footer_pic{
+	width: 100%;
+	position: fixed;
+	top: 93%;
+	left: 0;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
